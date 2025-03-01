@@ -12,7 +12,7 @@
                         "style": "folder"
                     },
                     "style": "diamond",
-                    "template": "  {{ .Path }} ",
+                    "template": "    {{ .Path }}  ",
                     "trailing_diamond": "",
                     "type": "path"
                 },
@@ -41,7 +41,7 @@
                     "foreground": "#1D1D2B",
                     "powerline_symbol": "",
                     "style": "powerline",
-                    "template": "  ",
+                    "template": "    ",
                     "type": "root"
                 }
             ],
