@@ -18,4 +18,4 @@ A soothing dark color theme based on the pantone color of the year 2022; Very Pe
 
 ##### Windows
 
-1. Copy the theme folder to `AppData\Local\Programs\Microsoft VS Code\resources\app\extensions` and `%USERPROFILE%\.vscode\extensions`
+1. Copy the theme folder to `%LOCALAPPDATA%\Programs\Microsoft VS Code\resources\app\extensions` and `%USERPROFILE%\.vscode\extensions`
