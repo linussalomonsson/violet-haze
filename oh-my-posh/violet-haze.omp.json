@@ -1,0 +1,53 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+        {
+            "alignment": "left",
+            "segments": [
+                {
+                    "background": "#1D1D2B",
+                    "foreground": "#D8D8E5",
+                    "leading_diamond": "",
+                    "properties": {
+                        "style": "folder"
+                    },
+                    "style": "diamond",
+                    "template": "  {{ .Path }} ",
+                    "trailing_diamond": "",
+                    "type": "path"
+                },
+                {
+                    "background": "#1D1D2B",
+                    "foreground": "#6667AB",
+                    "powerline_symbol": "",
+                    "properties": {
+                        "fetch_stash_count": true,
+                        "fetch_upstream_icon": true
+                    },
+                    "style": "powerline",
+                    "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} ",
+                    "type": "git"
+                },
+                {
+                    "background": "#6667AB",
+                    "foreground": "#1D1D2B",
+                    "powerline_symbol": "",
+                    "style": "powerline",
+                    "template": "  {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+                    "type": "python"
+                },
+                {
+                    "background": "#6667AB",
+                    "foreground": "#1D1D2B",
+                    "powerline_symbol": "",
+                    "style": "powerline",
+                    "template": "  ",
+                    "type": "root"
+                }
+            ],
+            "type": "prompt"
+        }
+    ],
+    "final_space": true,
+    "version": 3
+}
