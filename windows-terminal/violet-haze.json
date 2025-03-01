@@ -1,0 +1,23 @@
+{
+    "background": "#1D1D2B",
+    "black": "#1D1D2B",
+    "blue": "#6667AB",
+    "brightBlack": "#53536A",
+    "brightBlue": "#8788C5",
+    "brightCyan": "#66ABAA",
+    "brightGreen": "#66AB87",
+    "brightPurple": "#AB66AA",
+    "brightRed": "#C55F5F",
+    "brightWhite": "#F0F0F5",
+    "brightYellow": "#D6A86C",
+    "cursorColor": "#8788C5",
+    "cyan": "#5D8997",
+    "foreground": "#D8D8E5",
+    "green": "#5D8778",
+    "name": "Violet Haze",
+    "purple": "#7A67AB",
+    "red": "#AB6766",
+    "selectionBackground": "#6667AB",
+    "white": "#D8D8E5",
+    "yellow": "#AB9A66"
+}
