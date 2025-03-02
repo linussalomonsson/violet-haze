@@ -5,7 +5,7 @@
             "alignment": "left",
             "segments": [
                 {
-                    "background": "#1D1D2B",
+                    "background": "#333344",
                     "foreground": "#D8D8E5",
                     "leading_diamond": "",
                     "properties": {
@@ -17,7 +17,7 @@
                     "type": "path"
                 },
                 {
-                    "background": "#1D1D2B",
+                    "background": "#333344",
                     "foreground": "#6667AB",
                     "powerline_symbol": "",
                     "properties": {
@@ -30,7 +30,7 @@
                 },
                 {
                     "background": "#6667AB",
-                    "foreground": "#1D1D2B",
+                    "foreground": "#333344",
                     "powerline_symbol": "",
                     "style": "powerline",
                     "template": "  {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
@@ -38,11 +38,11 @@
                 },
                 {
                     "background": "#6667AB",
-                    "foreground": "#1D1D2B",
+                    "foreground": "#333344",
                     "powerline_symbol": "",
                     "style": "powerline",
-                    "template": "    ",
-                    "type": "root"
+                    "template": " {{ .CurrentDate | date .Format }} ",
+                    "type": "time"
                 }
             ],
             "type": "prompt"
